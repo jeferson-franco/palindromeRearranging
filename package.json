@@ -1,0 +1,20 @@
+{
+  "name": "palindromerearranging",
+  "version": "1.0.0",
+  "description": "Given a string, find out if its characters can be rearranged to form a palindrome.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeferson-franco/palindromeRearranging.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeferson-franco/palindromeRearranging/issues"
+  },
+  "homepage": "https://github.com/jeferson-franco/palindromeRearranging#readme"
+}
