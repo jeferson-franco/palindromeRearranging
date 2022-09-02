@@ -22,3 +22,26 @@ module.exports = solution;
 // npm i jest-cli -g
 // package.json: "scripts": { "test": "jest" }
 // npm test palindromeRearranging
+
+// alternative solution
+// function solution(inputString) {
+//     return (
+//         inputString
+//             .split('')
+//             .sort()
+//             .join('')
+//             .replace(/(\w)\1/g, '').length < 2
+//     );
+// }
+
+// alternative solution
+// function solution(s) {
+//     let ss = s.split('').sort(),
+//         r = 0;
+//     while (ss.length) {
+//         let t = ss.shift();
+//         if (t === ss[0]) ss.shift();
+//         else r++;
+//     }
+//     return r < 2;
+// }
